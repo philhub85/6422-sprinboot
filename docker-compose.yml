@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  6422sprinboot:
+    image: 6422sprinboot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8181:8181
